@@ -1,0 +1,622 @@
+* {
+    box-sizing: border-box;
+}
+
+.root {
+    /* font-family: 'Montserrat', sans-serif; */
+
+    --mainfontfamily: 'Montserrat', sans-serif;
+}
+
+/* section1 */
+.home {
+    background-image   : url(../img/img/bg.jpg);
+    background-position: 0px 0px;
+    background-size    : cover;
+    height             : 100vh;
+}
+
+header .home .layer {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+header .home .layer .content {
+
+    height: 577px;
+}
+
+.navbar-brand {
+    font-family   : var(--mainfontfamily);
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size     : 18px;
+    font-weight   : 800;
+    letter-spacing: 1px;
+    color         : #fff;
+}
+
+.navbar .nav-link.active {
+    color: #fff;
+}
+
+.navbar .nav-link.active::after {
+    content         : "";
+    background-color: #fff;
+    width           : 62%;
+    height          : 2.75px;
+    position        : absolute;
+    top             : 72%;
+    left            : 17.5%;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+header .home .layer .content h2 {
+    font-family: 'Montserrat', sans-serif;
+    color      : #fff;
+    font-size  : 50px;
+    font-weight: 800;
+}
+
+header .home .layer .content p {
+    font-family: 'Montserrat', sans-serif;
+    color      : #fff;
+    font-size  : 4.4rem;
+    font-weight: 300;
+}
+
+.icon .i {
+    width           : 50px;
+    height          : 50px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+header .home .layer .content p::after {
+    content  : "";
+    position : relative;
+    top      : 2%;
+    left     : 0%;
+    transform: translate(-50%, -50%);
+    animation: move 6s infinite;
+}
+
+@keyframes move {
+    0% {
+        content: "I Am LARRY DANIELS|";
+    }
+
+    2.5% {
+        content: "I Am LARRY DANIEL|";
+    }
+
+    5% {
+        content: "I Am LARRY DANIE|";
+    }
+
+    7.5% {
+        content: "I Am LARRY DANI|";
+    }
+
+    10% {
+        content: "I Am LARRY DAN|";
+    }
+
+    12.5% {
+        content: "I Am LARRY DA|";
+    }
+
+    15% {
+        content: "I Am LARRY D|";
+    }
+
+    17.5% {
+        content: "I Am LARRY|";
+    }
+
+    20% {
+        content: "I Am LARR|";
+    }
+
+    22.5% {
+        content: "I Am LAR|";
+    }
+
+    25% {
+        content: "I Am LA|";
+    }
+
+    27.5% {
+        content: "I Am L|";
+    }
+
+    30% {
+        content: "I Am |";
+    }
+
+    32.5% {
+        content: "I Am D|";
+    }
+
+    35% {
+        content: "I Am De|";
+    }
+
+    37.5% {
+        content: "I Am Dev|";
+    }
+
+    40% {
+        content: "I Am Deve|";
+    }
+
+    42.5% {
+        content: "I Am Devel|";
+    }
+
+    45% {
+        content: "I Am Develo|";
+    }
+
+    50% {
+        content: "I Am Develop|";
+    }
+
+    52.5% {
+        content: "I Am Develope|";
+    }
+
+    55% {
+        content: "I Am Developer|";
+    }
+
+    57.5% {
+        content: "I Am Develope|";
+    }
+
+    60% {
+        content: "I Am Develop|";
+    }
+
+    62.5% {
+        content: "I Am Develo|";
+    }
+
+    65% {
+        content: "I Am Devel|";
+    }
+
+    67.5% {
+        content: "I Am Deve|";
+    }
+
+    70% {
+        content: "I Am Dev|";
+    }
+
+    72.5% {
+        content: "I Am De|";
+    }
+
+    75% {
+        content: "I Am D|";
+    }
+
+    77.5% {
+        content: "I Am |";
+    }
+
+    80% {
+        content: "I Am|";
+    }
+
+    82.5% {
+        content: "I Am D|";
+    }
+
+    85% {
+        content: "I Am De|";
+    }
+
+    87.5% {
+        content: "I Am Des|";
+    }
+
+    90% {
+        content: "I Am Desi|";
+    }
+
+    92.5% {
+        content: "I Am Desig|";
+    }
+
+    95% {
+        content: "I Am Design|";
+    }
+
+    97.5% {
+        content: "I Am Designe|";
+    }
+
+    100% {
+        content: "I Am Designer|";
+    }
+}
+
+
+/* end section1 */
+
+
+/* section2 */
+
+
+section2 .container {
+    width     : 80%;
+    margin-top: 70px;
+}
+
+section2 .container img {
+    width: 100%;
+}
+
+/* .img1::after{
+    content: 'ryhthteh';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../img/img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+} */
+.btn1 {
+    transition: all 1s;
+    border    : 1px solid black !important;
+}
+
+.btn2 {
+    transition: all 1s;
+    border    : 1px solid black !important;
+}
+
+.btn1:hover {
+    background-color: #fff !important;
+    color           : black !important;
+}
+
+.btn2:hover {
+    color           : #fff !important;
+    background-color: black !important;
+}
+
+.hero .skills .skills-progress {
+    border-radius: 5px !important;
+    padding      : 5px 10px !important;
+}
+
+.web {
+    position: relative;
+
+}
+
+.word {
+    font-size  : 13px;
+    color      : #fff;
+    font-family: 'Montserrat', sans-serif;
+    position   : absolute;
+    top        : 0%;
+    left       : 2%;
+}
+
+/* end section2 */
+
+/* section3 */
+.service {
+    position        : relative;
+    background-color: #f7f7f7;
+}
+
+.service h2 {
+    font-weight: 900;
+    font-size  : 40px;
+}
+
+/* .service h3:after {
+    content: '';
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    background-color: black;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+} */
+
+/* end section3 */
+
+
+/* section4 */
+.branding {
+    background-color: #f7f7f7;
+    height          : 750px;
+}
+
+.iconn {
+    font-size: 28px;
+
+    width           : 70px;
+    height          : 70px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #f7f7f7;
+    transition      : all 1s;
+}
+
+.branding .container h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size  : 18px;
+}
+
+.branding .container .card {
+    padding: 30px 20px !important;
+    border : 0 solid;
+}
+
+.branding .container .card:hover .iconn {
+    background-color: black;
+    color           : #fff;
+}
+
+/* end section4 */
+
+/* section5 */
+.portfolio {
+    position        : relative;
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    font-weight: 900;
+    font-size  : 40px;
+}
+
+/* end section5 */
+
+/* section6 */
+.all ul {
+    list-style     : none;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+}
+
+.all ul li {
+    display       : flex;
+    flex-direction: row;
+}
+
+.all ul li a {
+    text-decoration: none;
+    margin         : 20px;
+    color          : #222;
+    font-weight    : 700;
+    font-size      : 16px;
+}
+
+.line::after {
+    content         : "";
+    width           : 2.5%;
+    height          : 2px;
+    background-color: #222;
+    position        : absolute;
+    top             : 65%;
+    left            : 38.4%;
+}
+
+.images {
+    height: 750;
+}
+
+.item {
+    overflow: hidden;
+}
+
+.overlayer {
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, 0.95);
+    top             : 5px;
+    left            : 5px;
+    right           : 5px;
+    bottom          : 0px;
+    opacity         : 0;
+    z-index         : 2;
+    transition      : all 1s;
+
+}
+
+.item:hover .overlayer {
+    top    : 5px;
+    left   : 5px;
+    right  : 5px;
+    bottom : 5px;
+    opacity: 1;
+}
+
+.iconf {
+    width           : 30px;
+    height          : 30px;
+    color           : #fff;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: black;
+}
+
+/* end section6 */
+
+
+
+
+/* section7 */
+.Testimonials {
+    position        : relative;
+    background-color: #f7f7f7;
+    height          : 350px;
+}
+
+.Testimonials h2 {
+    font-weight: 900;
+    font-size  : 40px;
+}
+
+/* end section7 */
+
+
+
+/* section8 */
+
+.slider {
+    background-color: #f7f7f7;
+    height          : 250px;
+    position        : relative;
+}
+
+.slider .container .slideer .slider1 .carousel-indicators [data-bs-target] {
+    width           : 10px;
+    height          : 10px;
+    border-radius   : 50%;
+    background-color: #343434;
+
+}
+
+.slider .container .slideer .slider1 .carousel-indicators {
+    position: absolute;
+    right   : 0;
+    bottom  : -50;
+    left    : 0;
+}
+
+
+/* end section8 */
+
+
+/* section9 */
+
+.count .container h2,
+p {
+    line-height: 1.7;
+}
+
+/* section9 */
+
+
+/* section10 */
+.blog {
+    position        : relative;
+    background-color: #f7f7f7;
+    height          : 200px;
+}
+
+.blog h2 {
+    font-weight: 900;
+    font-size  : 40px;
+}
+
+/* section10 */
+
+/* section11 */
+
+
+.ay7aga {
+    background-color: #f7f7f7;
+    position        : relative;
+    height          : 550px;
+}
+
+.ay7aga .container .card h6::after {
+    content         : "";
+    width           : 22%;
+    height          : 3px;
+    background-color: #222;
+    position        : absolute;
+
+    top : 95%;
+    left: 5%;
+}
+
+.ay7aga .container .carousel-1  .carousel-indicators [data-bs-target] {
+    width           : 10px;
+    height          : 10px;
+    border-radius   : 50%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.ay7aga .container .carousel-1 .carousel-indicators {
+    position: absolute;
+    right   : 0;
+    bottom  : -80;
+    left    : 0;
+}
+
+
+
+
+/* section11 */
+
+
+
+/* section12 */
+.contact {
+    position: relative;
+
+    height: 200px;
+}
+
+.contact h2 {
+    font-weight: 900;
+    font-size  : 40px;
+}
+
+.icon50 {
+    width           : 60px;
+    height          : 60px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #f7f7f7;
+    transition      : all 1s;
+}
+
+.item50:hover .icon50 {
+    background-color: black;
+    color           : #fff;
+}
+
+.phone .card {
+    border: 0px solid;
+}
+
+/* end section12 */
+
+
+/* section13 */
+
+.feedback .form {
+    background-color: #f4f4f4;
+}
+
+.feedback .container {
+    width: 70%;
+}
+
+/* end section13 */
