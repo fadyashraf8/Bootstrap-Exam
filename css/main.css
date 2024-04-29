@@ -18,6 +18,7 @@
 
 header .home .layer {
     background-color: rgba(0, 0, 0, 0.664);
+   
 }
 
 header .home .layer .content {
@@ -27,7 +28,6 @@ header .home .layer .content {
 
 .navbar-brand {
     font-family   : var(--mainfontfamily);
-    /* font-family: 'Montserrat', sans-serif; */
     font-size     : 18px;
     font-weight   : 800;
     letter-spacing: 1px;
@@ -37,16 +37,14 @@ header .home .layer .content {
 .navbar .nav-link.active {
     color: #fff;
 }
+.navbar .nav-link:hover {
+    color: white;
+    font-size: 25px;
+    transition: all .4s;
 
-.navbar .nav-link.active::after {
-    content         : "";
-    background-color: #fff;
-    width           : 62%;
-    height          : 2.75px;
-    position        : absolute;
-    top             : 72%;
-    left            : 17.5%;
 }
+
+
 
 .nav-link {
     color: #fff;
@@ -262,17 +260,7 @@ section2 .container img {
     width: 100%;
 }
 
-/* .img1::after{
-    content: 'ryhthteh';
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 0px;
-    bottom: -30px;
-    background-image: url(../img/img/dots.png);
-    background-repeat: repeat;
-    z-index: -1;
-} */
+
 .btn1 {
     transition: all 1s;
     border    : 1px solid black !important;
@@ -325,18 +313,6 @@ section2 .container img {
     font-size  : 40px;
 }
 
-/* .service h3:after {
-    content: '';
-    width: 100%;
-    height: 100px;
-    background-image: url(../img/img/dots.png);
-    background-repeat: repeat;
-    position: absolute;
-    background-color: black;
-    bottom: -10px;
-    left: 0;
-    z-index: -1;
-} */
 
 /* end section3 */
 
